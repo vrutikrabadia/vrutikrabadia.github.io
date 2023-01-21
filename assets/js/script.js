@@ -188,7 +188,7 @@ function submitInfo() {
     url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdPbeA1YbaUdIS0E_k7ApY92usNL8Y3x0NaW8OiFld8nEpH6g/formResponse",
     data: data,
     type: "POST",
-    
+    crossDomain: true,
     success: function () {
         alert("Wohoo!! Thanks for connecting, I will reach out soon. 😀");
       },
