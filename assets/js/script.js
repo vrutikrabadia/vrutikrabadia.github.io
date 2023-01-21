@@ -182,11 +182,20 @@ function submitInfo() {
     "entry.839337160": message
   }
 
-  var request = new XMLHttpRequest();
-  var url = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSdPbeA1YbaUdIS0E_k7ApY92usNL8Y3x0NaW8OiFld8nEpH6g/formResponse';
-  request.open('POST', url, true);
-  request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-  request.send(data);
+
+
+  $.ajax({
+    url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdPbeA1YbaUdIS0E_k7ApY92usNL8Y3x0NaW8OiFld8nEpH6g/formResponse",
+    data: data,
+    type: "POST",
+    success: function () {
+        alert("Wohoo!! Thanks for connecting, I will reach out soon. 😀");
+      },
+    error: function () {
+        alert("Oops!!  Something seems to be wrong 😨, give me some time I will fix it soon");
+      }
+    }
+  );
 }
 
 
