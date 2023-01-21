@@ -189,13 +189,20 @@ function submitInfo() {
     data: data,
     type: "POST",
     crossDomain: true,
-    success: function () {
+    statusCode: {
+      0: function () {
+        //Success message
         alert("Wohoo!! Thanks for connecting, I will reach out soon. 😀");
       },
-    error: function () {
-        alert("Oops!!  Something seems to be wrong 😨, give me some time I will fix it soon");
+      200: function () {
+        //Success Message
+        alert("Wohoo!! Thanks for connecting, I will reach out soon. 😀");
+      },
+      default: function(){
+        alert("Oops!!  Something seems to be wrong 😨, give me some time I'll fix it soon");
       }
     }
+  }
   );
 }
 
