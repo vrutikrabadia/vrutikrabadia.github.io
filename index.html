@@ -1,195 +1,872 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/618f4bcfcd.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="icon" href="images/bit-removebg-preview.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Vrutik's portfolio site. Feel free to reach me at details given in here!!! "
+    />
     <title>Vrutik Rabadia</title>
-</head>
-<body>
 
-    
-    <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
-    
-    <section class="colored-section" id="title-main">
-        <div class="container-fluid row">
-                <div class="col">
-                    <img class="bit_hi" src="images/hi1-removebg-preview.png" alt="">
-                    <h1 class="name-title">Hi! I'm Vrutik</h1>
-                    <p class="desig">Machine Learning and Web developer</p>
-                    <br><br><br>
-                </div>
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/bit.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/bit.ico"
+              alt="Vrutik Rabadia"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Vrutik Rabadia">Vrutik Rabadia</h1>
+
+            <p class="title">Software Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
-    </section>
 
-    <section class="colored-section" id="about">
-        <div class="container-fluid about-container">
-            
-            <img class="my_img" src="images/my_img.jpg" alt="">
-            <br><br>
-            <h2 class="desig1">Vrutik Rabadia</h2>
-            <br>
-            <p class="text-p2">Student of B.tech at Indian Institute of Information Technology - Surat<br><br>
-            Machine Learning Intern at IIRS - ISRO <br><br>
-            Web Developer at Ruminate <br><br>
-            Junior Developer at DSC NIT Surat - powered by google<br><br>
-            Exective at ACM, Association of Computing Machinery
-            </p>
-            <br><br>
-            <a href="https://www.linkedin.com/in/vrutik-rabadia-160a39193/"><img class="linkedin" src="images/linkedin.png"></a>
-            <a href="https://twitter.com/VrutikRabadia?fbclid=IwAR1UXGnBOxfEehuO8lAljDLevZPB7eF6I3jL2uYmp47VK4HXJZf_XtjDMWc"><img class="twitter" src="images/twitter.png"></a>
-            <a href="https://www.github.com/vrutikrabadia"><img class="github" src="images/github.png"></a>
-            <a href="mailto:vrutik.rabadia@gmail.com"><img class="mail" src="images/mail.png"></a>
-            <a href="https://drive.google.com/file/d/1W48NAOdrRl7HliKzDwbF--qSCE7eanyn/view?usp=sharing"><img class="cv" src="images/cv.png"></a>
-            <br><br><br>
-            </div>
-    </section>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-    <section class="coloured-section" id="projects">
-        <h1 class="project_title">Work Experience</h1>
-        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-pause="hover">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12 project-img">
-                        <img class="img-pro" src="images/IIRS-ISRO.png" alt="">
-                    </div>
-                    <div class="col-lg-8 col-md-12 col-sm-12">
-                        <h2 class="project_tit">
-                            Identification and Classification in Remote Sensing
-                        </h2><br>
-                        <h3 class="project-text">
-                            Mentor Organisation: IIRS-ISRO
-                        </h3>
-                        <br>
-                        <h3 class="project-text">Use remote sensing data to detect various infrastructure and vegetation in a satellite image and classify them into 
-                            the categories theyrepresent using You Only Look Once detection algorithm and classification using Fuzzy based 
-                            modified Possibilistic C-Means.
-                        </h3>
-                        <br>
-                        <a href="https://drive.google.com/file/d/1Tnf7SWcf314Sz3Q1B2NC5AtqLz2Uu4-e/view?usp=sharing" class="project-text">View Certificate</a>
-                    </div>
-                </div>
-            </div>
-
-                <div class="carousel-item">
-                  <div class="row">
-                      <div class="col-lg-4 col-md-12 col-sm-12 project-img">
-                          <img class="img-pro" src="images/schudle.png" alt="">
-                      </div>
-                      <div class="col-lg-8 col-md-12 col-sm-12">
-                          <h2 class="project_tit">
-                              Schudle
-                          </h2><br>
-                          <h3 class="project-text">
-                              Self paced
-                          </h3>
-                          <br>
-                          <h3 class="project-text">A user friendly and easily managable e-school platform
-                              containing all the essential services and security. Applying pre available services
-                               like google drive and calendar to provide seemless and best experience to user.
-                               Helps schools to handle online teaching without need of consulting experts.
-                          </h3>
-                          <br>
-                          <a href="https://github.com/VARSY5/schudle" class="project-text">View on Github</a>
-                      </div>
-                  </div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
               </div>
 
-              <div class="carousel-item">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12 project-img">
-                        <img class="img-pro" src="images/plotify.png" alt="">
-                    </div>
-                    <div class="col-lg-8 col-md-12 col-sm-12">
-                        <h2 class="project_tit">
-                            Plotify
-                        </h2><br>
-                        <h3 class="project-text">
-                            Self paced(ongoing)
-                        </h3>
-                        <br>
-                        <h3 class="project-text">Create a robust platform to help user to visualize their data 
-                            by plotting various graph and help in data manupulation and cleaning without any need to
-                            write code with pre implemented features just by interacting with GUI.
-                        </h3>
-                        <br>
-                        <a href="https://github.com/RuntimeTerror-Plotify/plotify" class="project-text">View on Github</a>
-                    </div>
-                </div>
-            </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12 project-img">
-                        <img class="img-pro" src="images/Ruminate_Logo_png-04.png" alt="">
-                    </div>
-                    <div class="col-lg-8 col-md-12 col-sm-12">
-                        <h2 class="project_tit">
-                            Ruminate Site
-                        </h2><br>
-                        <h3 class="project-text">
-                            Organisation: Ruminate, IIIT-Surat
-                        </h3>
-                        <br>
-                        <h3 class="project-text">Make website for E-cell of IIIT-Surat using React.
-                        </h3>
-                        <br>
-                    </div>
-                </div>
-            </div>
+                <a href="mailto:vrutik.rabadia@gmail.com" class="contact-link"
+                  >vrutik.rabadia@gmail.com</a
+                >
+              </div>
+            </li>
 
-            </div>
-            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-    </section>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-    <section class="coloured-section" id="skills">
-        <h1 class="project_title">Skills</h1>
-        <h2 class="project_tit">Machine Learning and Deep Learning</h2>
-        <img class="skills-images" src="images/sk.png" alt="">
-        <img class="skills-images" src="images/keras.png" alt="">
-        <img class="skills-images" src="images/tf.png" alt="">
-        <img class="skills-images" src="images/torch.png" alt="">
-        <h2 class="project_tit">Computer Vision</h2>
-        <img class="skills-images" src="images/ocv.png" alt="">
-        <h2 class="project_tit">Data Science</h2>
-        <img class="skills-images" src="images/np.png" alt="">
-        <img class="skills-images" src="images/pd.png" alt="">
-        <img class="skills-images" src="images/sp.png" alt="">
-        <img class="skills-images" src="images/plt.png" alt="">
-        <h2 class="project_tit">Web</h2>
-        <img class="skills-images" src="images/ht.jpg" alt="">
-        <img class="skills-images" src="images/css.png" alt="">
-        <img class="skills-images" src="images/node.png" alt="">
-        <img class="skills-images" src="images/react.png" alt="">
-        <img class="skills-images" src="images/mongo.png" alt="">
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-        
-    </section>
-    <section class="coloured-section" id="contact">
-        <div class="container-fluid">
-           <p class="copyr">© Copyright 2021 Vrutik Rabadia</p>
+                <a href="tel:+918984788313" class="contact-link"
+                  >+91 89847 88313</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">July 18, 2001</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Bengaluru, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/vrutikrabadia/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/vrutikrabadia/" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/vrutikrabadia/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
         </div>
-    </section>
-</body>
-</html> 
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm Software Engineer, working in backend development and
+              exploring other avenues. I enjoy building softwares that solves
+              complex problems and makes life easier.
+            </p>
+
+            <p>
+              I am proficient in Backend Development and other concepts like API
+              development and Web server development. I am handy with various
+              Data Structures and algorithms. During my previous experience, I
+              was involved in designing, planning, and implementing backend
+              server-side applications. I have also developed a few applications
+              for a few problems that I observed need to be solved. Feel free to
+              look and reach out if you want to discuss any of them.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/api.png
+                "
+                    alt="design icon"
+                    width="70"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Backend/API Architecture
+                  </h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality backend applications with
+                    high scalability and perfrmance.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="70"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/ai.png"
+                    alt="Machine Learning icon"
+                    width="70"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">ML/AI</h4>
+
+                  <p class="service-item-text">
+                    From collecting data to building models for various
+                    problems.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/coding.png"
+                    alt="Coding icon"
+                    width="70"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Coding</h4>
+
+                  <p class="service-item-text">
+                    Any problem that can be solved using code.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Pranjal Agrawal"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Pranjal Agrawal
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Vrutik did an amazing job while working for sagecoders.
+                      <br />
+                      In a very short span he was handling projects on his own
+                      with no guidance at all. <br />
+                      He will be a great asset to any firm.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                <time datetime="2021-06-14">13 August, 2021</time>
+
+                <div data-modal-text>
+                  <p></p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <a
+            href="https://drive.google.com/file/d/1fqabWK96v8A16IrkYsPxcWogNIHvxNSr/view?usp=sharing"
+            target="_blank"
+            ><img
+              src="https://img.shields.io/badge/-view--pdf-yellow?style=plastic&logo=appveyor"
+              alt="view-pdf"
+              width="15%"
+          /></a>
+          <br />
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Indian Institute of Information Technology, Surat
+                </h4>
+                <span>2019 — 2023</span>
+                <p class="timeline-text">
+                  Bachelor of Technology in Computer Science and Engineering.
+                  <br />
+
+                  Grade : 9.43 CGPA
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Vidyashram Public School, Kota
+                </h4>
+
+                <span>2017 - 2019</span>
+
+                <p class="timeline-text">
+                  Senior Secondary (S.Sc.) Grade : 92.8%
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Vikash Residential School
+                </h4>
+
+                <span>Start - 2019</span>
+
+                <p class="timeline-text">
+                  Higher Secondary (H. Sc.) Grade : 10 CGPA
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <a href="https://www.increff.com/" target="_blank"
+                  ><h4 class="h4 timeline-item-title">
+                    SDE-1 Intern, Increff
+                  </h4></a
+                >
+
+                <span>Jan 2023 — Present</span>
+
+                <p class="timeline-text">
+                  Building Backend Applications in Spring Framework.<br />
+                  Implementing highly scalable API and backend servicesfocused
+                  on bringing incredible logistics and warehousing efficiency.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Intern, Consultant</h4>
+
+                <span>Jun 2022 – Jul 2022</span>
+
+                <p class="timeline-text">
+                  Worked on implementing varioustesting frameworks and comparing
+                  their performance. <br />
+                  Worked on implementing the tests to run in parallel using
+                  multithreading
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Backend Development Intern, SageCoders
+                </h4>
+
+                <span>Jun 2021 – Jul 2021</span>
+
+                <p class="timeline-text">
+                  Worked and managed backend workflows.<br />
+                  Built and deployed highly scalable API for financial
+                  applications. <br />
+                  Packaged and shipped backend application to production.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Machine Learning Research Intern, Indian Institute of Remote
+                  Sensing(IIRS), Indian Space Research Organisation(ISRO)
+                </h4>
+
+                <span>Sep 2020 – Nov 2020</span>
+
+                <p class="timeline-text">
+                  Worked on a project entitled 'Object detection in satellite
+                  images using YOLO and classification using Fuzzy Possibilistic
+                  C-Means'. <br />
+                  Built robust detection and segmentation pipeline for use on
+                  real-time data.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Structures and Algorithms</h5>
+                  <data value="80">65%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Programming</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Backend/API development</h5>
+                  <data value="90">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Frontend Development</h5>
+                  <data value="50">40%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 40%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">ML/AI</h5>
+                  <data value="50">55%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 55%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://github.com/Done-With-Coding" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/thundervolt.png"
+                      alt="ThunderVolt"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">ThunderVolt</h3>
+
+                  <p class="project-category">
+                    Electric mobility charging solution.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/RuntimeTerror-Plotify/plotify"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/plotify.png"
+                      alt="plotify"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Plotify</h3>
+
+                  <p class="project-category">
+                    Easy-to-use data manipulation and Visualisation platform.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="https://github.com/Node-Nerds/Agrificient"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/aggrificient.svg"
+                      alt="aggrificient"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Aggrificient</h3>
+
+                  <p class="project-category">
+                    Democratising the agro supply chain.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://github.com/RIAC-Engineering" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/riac.png"
+                      alt="riac"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Research and Innovation Affairs Council Portal.
+                  </h3>
+
+                  <p class="project-category">
+                    Web portal for Research and Innovation Affairs Council
+                    Portal, SVNIT.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://github.com/VARSY5/schudle" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/schudle.png"
+                      alt="schudle"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Schudle</h3>
+
+                  <p class="project-category">
+                    Digitalising the school management.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="https://github.com/vrutikrabadia/Centroid_Extraction_C_Elegans_2D"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/centorid extraction.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Centroid Extraction C-Elegans</h3>
+
+                  <p class="project-category">
+                    Python script extracting centroids coordinates in a jiffy!!
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.55224863064!2d77.49085471522923!3d12.954294594593607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1674293719661!5m2!1sen!2sin"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form id="contact-form">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+                <input
+                  type="tel"
+                  name="phone"
+                  class="form-input"
+                  placeholder="Phone Number"
+                  data-form-input
+                />
+              </div>
+              <div class="input-wrapper-email">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button
+                class="form-btn"
+                type="button"
+                id="submit-contact-info"
+                data-form-btn
+              >
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
