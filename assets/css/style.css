@@ -316,6 +316,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
+  margin-top: 75px;
   max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
@@ -456,13 +457,13 @@ main {
 
 .navbar {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
-  border-radius: 12px 12px 0 0;
+  border-radius: 0 0 12px 12px;
   box-shadow: var(--shadow-2);
   z-index: 5;
 }
@@ -1338,6 +1339,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar {
     max-height: 180px;
     margin-bottom: 30px;
+    margin-top: 90px;
   }
 
   .sidebar.active { max-height: 584px; }
@@ -1380,7 +1382,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #NAVBAR
    */
 
-  .navbar { border-radius: 20px 20px 0 0; }
+  .navbar { border-radius: 0 0 20px 20px; }
 
   .navbar-list { gap: 20px; }
 
